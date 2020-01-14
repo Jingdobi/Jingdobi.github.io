@@ -1,0 +1,53 @@
+@font-face {
+    font-family: ranger_italic-webfont;
+    src: url(Fonts/ranger_italic-webfont.woff)
+}
+
+article {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 30px;
+}
+
+h2{
+    letter-spacing: normal;
+}
+
+body {
+    background-color: rgb(231, 231, 231);
+    color: rgb(30, 56, 46);
+    max-width: 1200px;
+    margin:auto;
+}
+
+.titleHead{
+    margin: 30px;
+    text-align: center;
+    padding: 10px;
+    font-family: ranger_italic-webfont;
+    letter-spacing: .2em;
+    font-size: 2em ;
+    border-radius: 5px;
+    background-color: #3D9970;
+}
+
+.card{
+    margin-top: 50px;
+    float: right;
+    border-radius: 50px;
+    width: 200px;
+    height: 267px;
+    background: url("Images/eyes1.jpg") no-repeat;
+}
+
+.card:hover{
+    background: url("Images/eyes2.jpg") no-repeat;
+}
+.foot {
+    margin: 15px;
+    text-align: center;
+    padding: 10px;
+    font-family: ranger_italic-webfont;
+    font-size: 1.3em ;
+    border-radius: 5px;
+    background-color: #3D9970;
+}

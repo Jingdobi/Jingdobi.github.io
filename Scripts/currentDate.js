@@ -5,3 +5,4 @@ let currentYear = currentDate.getFullYear();
 console.log(currentYear);
 
 document.getElementById("currentYear").innerHTML = currentYear;
+document.getElementById("currentDate").innerHTML = currentDate;

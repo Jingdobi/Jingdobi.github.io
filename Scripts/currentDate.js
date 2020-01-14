@@ -1,2 +1,8 @@
-var year = new Date();
-var date = year.getFullYear();
+const currentDate = new Date();
+console.log(currentDate);
+
+let currentYear = currentDate.getFullYear();
+console.log(currentYear);
+
+document.getElementById("currentYear").innerHTML = currentYear;
+document.getElementById("currentDate").innerHTML = currentDate;

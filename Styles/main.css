@@ -1,6 +1,6 @@
 @font-face {
     font-family: ranger_italic-webfont;
-    src: url(Fonts/ranger_italic-webfont.woff)
+    src: url(fonts/ranger_italic-webfont.woff)
 }
 
 article {
@@ -36,11 +36,11 @@ body {
     border-radius: 50px;
     width: 200px;
     height: 267px;
-    background: url("Images/eyes1.jpg") no-repeat;
+    background: url("images/eyes1.jpg") no-repeat;
 }
 
 .card:hover{
-    background: url("Images/eyes2.jpg") no-repeat;
+    background: url("images/eyes2.jpg") no-repeat;
 }
 .foot {
     margin: 15px;

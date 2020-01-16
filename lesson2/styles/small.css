@@ -1,0 +1,19 @@
+
+/*html selectors */
+
+body {
+    font-size: 10pt;
+    text-align: center;
+}
+
+img {
+    width: 300px;
+}
+
+/*class selectors*/
+
+
+#grid {
+    display: grid;
+    grid-template-columns: 1fr;
+}

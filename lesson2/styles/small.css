@@ -27,10 +27,18 @@ img {
     width: 350px;
     border-radius: 18px;
 }
-
+footer {
+    background-color: #85144b;
+    margin:auto;
+    max-width: 95%;
+    border-radius: 10px;
+}
 
 
 /*class selectors*/
+.footp{
+    color:white;
+}
 .paragraph {
     text-align: left;
     font-size: 1em;

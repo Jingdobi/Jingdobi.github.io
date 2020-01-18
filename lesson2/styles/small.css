@@ -1,17 +1,47 @@
 
+
 /*html selectors */
 
+article {
+    background-color: #85144b;
+    border-radius: 8.5px;
+    margin: 20px;
+}
+h2 {
+    color: #85144b;
+    background-color: rgb(255, 166, 203);
+    margin: 10px;
+    border-radius: 5px;
+}
 body {
+    background-color: rgb(187, 255, 255);
+    font-family: 'Ibarra Real Nova', serif;
     font-size: 10pt;
     text-align: center;
 }
 
 img {
-    width: 300px;
+    padding: 0px;
+    margin:20px;
+    margin-top: 10px;
+    width: 350px;
+    border-radius: 18px;
 }
 
-/*class selectors*/
 
+
+/*class selectors*/
+.paragraph {
+    text-align: left;
+    font-size: 1em;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+    color: #85144b;
+    background-color: rgb(255, 166, 203);
+}
+/*id selectors*/
 
 #grid {
     display: grid;

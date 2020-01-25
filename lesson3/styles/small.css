@@ -1,0 +1,123 @@
+
+ /* 
+ 
+ <----------------------------------------------------COLORS USED--------------------------------------------------------->
+    Dark Purple:  #2C203A
+    Sunset Orange: #ED5C5C
+    Licorice:  #191308
+    Catawba:   #773344
+    Pastel Pink:  #E3B5A4
+<-------------------------------------------------------------------------------------------------------------------------->
+
+*/
+
+
+/* HTML selectors */
+
+article {
+    background-color: #E3B5A4;
+    color: #191308;
+    margin: auto;
+    text-align: center;
+    width: 70%;
+}
+
+body {
+    background-color: #2C203A;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+    color: #ED5C5C;
+    font-family: 'Lato', sans-serif;
+    margin: 20px;
+    text-align: left;
+}
+
+h2 {
+    color: #773344;
+    margin: 15px;
+    padding: 15px;
+}
+
+h3 {
+    margin:5px;
+}
+
+p{
+    padding: 20px;
+    text-align: left;
+}
+
+ul {
+    border-style: solid;
+    list-style: none;
+}
+
+ul li a {
+    background-color:  #2C203A;
+    color:#ED5C5C;
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    width: 300px;
+}
+
+ul li a:hover{
+    background-color: #ED5C5C;
+    color: #2C203A;
+}
+
+/*Class selectors */
+
+.color_desc1{
+    background-color: #2C203A;
+    border-style: solid;
+    color: #ED5C5C;
+    display:inline-block;
+    padding: 20px;
+    text-align: center;
+}
+.color_desc2{
+    background-color: #E3B5A4;
+    border-style: solid;
+    color: #773344;
+    display:inline-block;
+    padding:20px;
+    text-align: center;
+}
+
+.flex {
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+}
+
+.foot{
+    text-align: center;
+    color: #ED5C5C;
+}
+
+.foot p {
+    text-align: center;
+}
+
+/*ID selectors */
+#color_test {
+    background-color: rgb(20, 20, 20);
+    margin: auto;
+    width: 80%;
+}
+
+#home_pic{
+    width: 100%;
+}
+
+#logo {
+    margin: auto;
+}
+
+
+

@@ -1,0 +1,28 @@
+@media only screen and (min-width: 32.5em) { 
+/* HTML selectors */
+    ul {
+        list-style: none;
+    }
+
+    ul li a {
+        background-color:  #2C203A;
+        color:#ED5C5C;
+        display: inline-block;
+        padding: 10px;
+        text-align: center;
+        text-decoration: none;
+        max-width: 150px;
+    }
+
+    /*Class selectors */
+    .flex {
+        max-width: 100%;
+        align-items: center;
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+
+    /*ID selectors */
+}

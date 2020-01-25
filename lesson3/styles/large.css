@@ -1,0 +1,12 @@
+@media only screen and (min-width: 64em){
+    /* HTML selectors */
+    ul li a {
+        background-color:  #2C203A;
+        color:#ED5C5C;
+        display: inline-block;
+        padding: 10px;
+        text-align: center;
+        text-decoration: none;
+        max-width: 300px;
+    }
+}

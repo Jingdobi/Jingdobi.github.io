@@ -1,0 +1,84 @@
+
+
+/* HTML selectors */
+body{
+    font-family: 'Fira Sans Condensed', sans-serif;
+    margin: 0;
+}
+header {
+    align-items:center;
+    background-color: #D6A17A;
+    display: flex;
+    font-family: 'Bree Serif' , serif;
+    max-height: 210px;
+}
+footer{
+    background-color: #D6A17A;
+    margin:0 auto;
+    max-width: 82%;
+    text-align: center;
+}
+h1{
+    font-family: 'Bree Serif' , serif;
+    padding-bottom: 20px;
+}
+h2 {
+    font-family: 'Bree Serif' , serif;
+}
+main {
+    background-color: #41828A;
+    margin: auto;
+    max-width: 80%;
+    padding:10px;
+
+}
+nav{
+    margin: auto;
+}
+nav ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+section {
+    align-items: center;
+    background-color: rgb(233, 233, 233);
+    display:block;
+    margin:10px;
+    opacity: .5;
+    padding: 10px;
+    border-style: dotted;
+}
+ul li a {
+    color: rgb(36, 36, 36);
+    background-color: rgb(218, 218, 218);
+    display: block;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+}
+ul li a:hover {
+    
+    background-color: whitesmoke;
+    color: indianred;
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+}
+/* Class Selectors */
+.navigation li {
+    display:none;
+}
+.navigation li:first-child{
+    display:block;
+}
+.responsive li{
+    display:block ;
+}
+.top-head {
+    margin-left: 15px;
+}
+/* ID Selectors */
+#logo{
+   max-width: 200px;
+}

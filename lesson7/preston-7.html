@@ -27,7 +27,7 @@
                <a href="#">Home</a>
             </li>
            <li>
-            <a href="preston-5.html">Preston</a>   
+            <a href="preston-7.html">Preston</a>   
             </li>
            <li>
                <a href="#">Soda Springs</a>
@@ -48,8 +48,15 @@
             <section id="preston"><h1>Preston Idaho</h1></section>
 
             <section id="hero"><h2>Hero</h2>
-                <img id="hero-image" src="images/hero.jpg">
-                    <article id="weather-summary">
+                <!-- <img id="hero-image" src="images/hero.jpg"> -->
+                <picture>
+                    <source media="(max-width: 400px)" srcset="images/hero-image-small.jpg" >
+                    <source media="(max-width: 800px)"srcset="images/hero-image-medium.jpg" >
+                    <source media="(min-width: 801px)" srcset="images/hero-image-large.jpg" >
+                    <img src="images/hero-image-small.jpg">
+                </picture>  
+                <!-- <img src="images/hero-image-small.jpg" alt="Hero Image" srcset="imagex/hero-image-small.jpg 400w, images/hero-image-medium.jpg 800w, images/hero-image-large.jpg 1200w">   -->
+                <article id="weather-summary">
                         <h2>Weather Summary</h2>
                         <div>
                             <span>Current Temperature: </span>
@@ -60,8 +67,8 @@
                             <span id="wind-speed"></span>
                         </div>
                         <div>
-                            <span>Humidity: </span>
-                            <span id="humidity"></span>
+                            <span>Feels Like: </span>
+                            <span id="windChill"></span>
                         </div>
                     </article>
                 </section>
@@ -121,6 +128,7 @@
             <span id="today"></span> 
         </p>
    </footer>
+   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
    <script src="scripts/hamburger_menu.js" ></script>
 </body> 
 </html>

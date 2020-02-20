@@ -1,0 +1,22 @@
+img [data-src] {
+    filter: blur(.2em);
+}
+
+img {
+    filter: blur(0em);
+    
+}
+
+.pictures {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    text-align: center;
+}

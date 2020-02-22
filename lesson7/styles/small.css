@@ -74,6 +74,16 @@ ul li a:hover {
     text-decoration: none;
 }
 /* Class Selectors */
+.grid-gallery{
+    grid-template-columns: 1fr;
+}
+.img-card{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    background-color: blanchedalmond;
+    margin: 20px;
+}
 .navigation li {
     display:none;
 }
@@ -85,6 +95,14 @@ ul li a:hover {
 }
 .top-head {
     margin-left: 15px;
+}
+.weather-grid {
+    align-self: center;
+    height: 250px;
+    width: 350px;
+}
+.weather-grid:hover {
+    box-shadow: black 0 0 50px ;
 }
 /* ID Selectors */
 #article-image{

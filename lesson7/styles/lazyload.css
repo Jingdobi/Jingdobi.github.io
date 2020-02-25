@@ -7,11 +7,6 @@ img {
     
 }
 
-.pictures {
-    display: grid;
-    grid-template-columns: 1fr;
-}
-
 section {
     display: flex;
     flex-direction: column;
@@ -19,4 +14,9 @@ section {
 
 main {
     text-align: center;
+}
+
+.pictures {
+    display: grid;
+    grid-template-columns: 1fr;
 }

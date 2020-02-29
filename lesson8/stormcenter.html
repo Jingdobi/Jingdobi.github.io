@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Fira+Sans+Condensed&display=swap" rel="stylesheet">
+    <title>Preston</title>
+</head>
+<body>
+    <aside class="hidden">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae officia, labore ut fugiat expedita maxime velit, sit cupiditate excepturi quae mollitia repellendus debitis facilis, voluptas impedit odit neque minus numquam!    
+    </aside>
+   <header>
+    <img src="images/mtlogo.png" id="logo">
+    <h1 class="top-head">Storm Center</h1>
+   </header>
+   <nav>
+       <ul class="navigation">
+           <li>
+              <a href="#" onclick="toggleMenu()"> &equiv;</a>
+           </li>
+           <li>
+               <a href="#">Home</a>
+            </li>
+           <li>
+            <a href="preston-8.html">Preston</a>   
+            </li>
+           <li>
+               <a href="#">Soda Springs</a>
+            </li>
+           <li>
+               <a href="#">Fish Haven</a>
+            </li>
+           <li> 
+               <a href="#">Storm Center</a> 
+            </li>
+           <li>
+                <a href="gallery-8.html">Gallery</a>   
+            </li>
+       </ul>
+   </nav>
+   <main>
+       <div class="container">
+      <form action="thanks.html" method="GET">
+          <div>
+        <label for="fullName">Full Name: </label>  
+        <input type="text" id="fullName" nam="fullName" pattern="[A-Za-z].{5,}" required>
+        </div>
+        <div>
+        <label type="text" for="email">Email: </label>
+        <Input type="email" id="email" name="email" placeholder="example@domain.com"></Input>
+        </div>
+        <div>
+            <label type="text" for="phoneNumber">Phone Number: </label>
+            <input type="tel" id="phoneNumber" name="phoneNumber">
+        </div>
+        <div>
+            <label  for="zipCode">Zip Code: </label>
+            <input type="number" id="zipCode" name="zipCode" required>
+        </div>
+        <div>
+            <label for="stormType">Storm Type: </label>
+            <input list="stormList" id="stormType" name="stormType">
+            <datalist id="stormList">
+                <option value="Flash Flood"></option>
+                <option value="Hail"></option>
+                <option value="Hurricane"></option>
+                <option value="Thunderstorm"></option>
+                <option value="Tornado"></option>
+            </datalist>
+        </div>
+        <div>
+            <label for="stormDate">Storm Date: </label>
+            <input type="date" id="stormDate" name="stormDate">
+        </div>
+        <div>
+            <label for="stormSeverity">Storm Severity: </label>
+            <input type="range" id="stormSeverity" name="stormSeverity" 
+            value="5" min="1" max="10" step="1" list="tickmarks"
+            oninput="adjustRating(this.value)" >
+            <span id="rating">5</span>
+        </div>
+        <div>
+            <label for="stormRegion">Storm Region: </label>
+            <select name="stormRegion" id="stormRegion">
+                <option value="" selected disabled>Select Region</option>
+                <option value="preston">Preston</option>
+                <option value="soda-springs">Soda Springs</option>
+                <option value="fish-haven">Fish Haven</option>
+            </select>
+        </div>
+        <div>
+            <label for="additionalInfo">Additional Info: </label>
+            <textarea type="text" id="additionalInfo"></textarea>
+        </div>
+        <div>
+            <label for="userInDangerLevel">User in Danger Level: </label>
+            <label for="yes">
+                <input type="radio" value="yes" name="userInDangerLevel" id="yes">
+                Yes
+            </label>
+            <label for="no">
+                <input type="radio" value="no" name="userInDangerLevel" id="no">
+                No
+            </label>
+            <label for="maybe">
+                <input type="radio" value="maybe" name="userInDangerLevel" id="maybe">
+                Maybe
+            </label>
+        </div>
+        <div>
+            <input type="submit" value="Submit" id="btnSubmit">
+            <input type="reset" value="Reset" id="btnReset">
+        </div>
+      </form>
+       </div>
+   </main>
+   <footer>
+       <h3>Today's date is</h3>
+        <p>
+            <span id="today"></span> 
+        </p>
+   </footer>
+   <script src="scripts/main.js"></script>
+   <script src="scripts/lazyload.js"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+   <script src="scripts/hamburger_menu.js" ></script>
+   <script src="scripts/rating.js"></script>
+</body> 
+</html>

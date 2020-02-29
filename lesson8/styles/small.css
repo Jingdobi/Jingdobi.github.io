@@ -1,0 +1,170 @@
+
+
+/* HTML selectors */
+aside{
+    background-color: yellow;
+}
+body{
+    font-family: 'Fira Sans Condensed', sans-serif;
+    margin: 0;
+}
+
+footer{
+    background-color: #D6A17A;
+    margin:0 auto;
+    max-width: 82%;
+    text-align: center;
+}
+frame{
+    box-sizing: border-box;
+}
+header {
+    align-items:center;
+    background-color: #D6A17A;
+    display: flex;
+    font-family: 'Bree Serif' , serif;
+    max-height: 210px;
+}
+h1{
+    font-family: 'Bree Serif' , serif;
+    background-color: none;
+}
+h2 {
+    font-family: 'Bree Serif' , serif;
+}
+iframe{
+    display:none;
+}
+input{
+    text-align: left;
+    margin-top: 5px;
+}
+input [type="text"]{
+    border: 1px solid #ccc;
+}
+label{
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+main {
+    background-color: rgb(233, 233, 233);
+    margin: auto;
+    max-width: 80%;
+    padding:10px;
+}
+nav{
+    margin: auto;
+}
+nav ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+section {
+    align-items: center;
+    display:block;
+    margin:10px;
+    padding: 10px;
+    margin: 12px;
+}
+table, tr, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+ul li a {
+    color: rgb(36, 36, 36);
+    background-color: rgb(218, 218, 218);
+    display: block;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+}
+ul li a:hover {
+    
+    background-color: whitesmoke;
+    color: indianred;
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+}
+/* Class Selectors */
+.container {
+  width: 75%;
+  clear: both;
+}
+
+.container input {
+  width: 100%;
+  clear: both;
+}
+.grid-gallery{
+    grid-template-columns: 1fr;
+}
+.img-card{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    background-color: blanchedalmond;
+    margin: 20px;
+}
+.navigation li {
+    display:none;
+}
+.navigation li:first-child{
+    display:block;
+}
+.responsive li{
+    display:block ;
+}
+.top-head {
+    margin-left: 15px;
+}
+.weather-grid {
+    align-self: center;
+    height: 250px;
+    width: 350px;
+}
+.weather-grid:hover {
+    box-shadow: black 0 0 50px ;
+}
+/* ID Selectors */
+#article-image{
+    float: right;
+    max-width: 200px;
+    margin: 0 0 1em 1em;
+}
+#btnReset {
+    text-align: center;
+    width: 75px;
+}
+#btnSubmit {
+    text-align: center;
+    width: 75px;
+}
+#five-day-forecast{
+    display:none;
+}
+#hero-image{
+    max-width: 100%;
+}
+#logo{
+   max-width: 200px;
+}
+#preston{
+    background-color: none;
+    font-size: 1.5em;
+    opacity: 100%;
+    text-align: center;
+}
+#weather-summary{
+    border-radius: 3px;
+    color:white;
+    max-width: 400px;
+    opacity: .9;
+    padding:15px;
+    background-color: #42313b;
+    position: absolute;
+    top: 500px;
+    
+}

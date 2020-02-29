@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Fira+Sans+Condensed&display=swap" rel="stylesheet">
+    <title>Preston</title>
+</head>
+<body>
+    <aside class="hidden">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae officia, labore ut fugiat expedita maxime velit, sit cupiditate excepturi quae mollitia repellendus debitis facilis, voluptas impedit odit neque minus numquam!    
+    </aside>
+   <header>
+    <img src="images/mtlogo.png" id="logo">
+    <h1 class="top-head">Welcome to Preston</h1>
+   </header>
+   <nav>
+       <ul class="navigation">
+           <li>
+              <a href="#" onclick="toggleMenu()"> &equiv;</a>
+           </li>
+           <li>
+               <a href="#">Home</a>
+            </li>
+           <li>
+            <a href="preston-8.html">Preston</a>   
+            </li>
+           <li>
+               <a href="#">Soda Springs</a>
+            </li>
+           <li>
+               <a href="#">Fish Haven</a>
+            </li>
+           <li> 
+               <a href="stormcenter.html">Storm Center</a> 
+            </li>
+           <li>
+                <a href="gallery-8.html">Gallery</a>   
+            </li>
+       </ul>
+   </nav>
+   <main>
+       <div class="grid">
+            <section id="preston"><h1>Preston Idaho</h1></section>
+
+            <section id="hero"><h2>Hero</h2>
+                <!-- <img id="hero-image" src="images/hero.jpg"> -->
+                <picture>
+                    <source media="(max-width: 400px)" srcset="images/hero-image-small.jpg" >
+                    <source media="(max-width: 800px)"srcset="images/hero-image-medium.jpg" >
+                    <source media="(min-width: 801px)" srcset="images/hero-image-large.jpg" >
+                    <img src="images/hero-image-small.jpg">
+                </picture>  
+                <!-- <img src="images/hero-image-small.jpg" alt="Hero Image" srcset="imagex/hero-image-small.jpg 400w, images/hero-image-medium.jpg 800w, images/hero-image-large.jpg 1200w">   -->
+                <article id="weather-summary">
+                        <h2>Weather Summary</h2>
+                        <div>
+                            <span>Current Temperature: </span>
+                            <span id = "current-temp"></span>
+                        </div>
+                        <div>
+                            <span>Wind Speed: </span>
+                            <span id="wind-speed"></span>
+                        </div>
+                        <div>
+                            <span>Feels Like: </span>
+                            <span id="windChill"></span>
+                        </div>
+                    </article>
+                </section>
+            <section id="five-day-forecast"><h2>Five Day Forecast</h2>
+                    <table>
+                        <caption>Five Day Forecast</caption>
+                        <thead>
+                            <tr>
+                                <th id="day1">Day 1</th>
+                                <th id="day2">Day 2</th>
+                                <th id="day3">Day 3</th>
+                                <th id="day4">Day 4</th>
+                                <th id="day5">Day 5</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td id="temp1">50&deg;</td>
+                                <td id="temp2">50&deg;</td>
+                                <td id="temp3">50&deg;</td>
+                                <td id="temp4">50&deg;</td>
+                                <td id="temp5">50&deg;</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+            
+            <section id="article">
+                <h2>Article</h2>
+                <img id="article-image" src="images/preston.jpg">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed iaculis ante sem, in cursus nibh viverra vitae. Vestibulum euismod, quam eu semper lacinia, elit diam auctor velit, at semper arcu libero ac elit. Sed diam ex, scelerisque vel hendrerit dignissim, pretium ut ligula. Vivamus rhoncus eu ante in gravida. Proin ornare nibh eu ipsum bibendum, eget pellentesque mauris ornare. Etiam ut lectus elit. In quis nunc tellus. Nullam tempor faucibus eros. Nulla pellentesque ipsum vitae euismod lobortis. Aenean dapibus dolor eget tristique scelerisque. Integer tristique nibh ut nibh aliquam, et pellentesque risus pellentesque. Phasellus vitae cursus leo.
+                    Vestibulum ac nibh et augue porta dictum. Praesent iaculis ipsum vel maximus convallis. Nulla tincidunt auctor malesuada. Mauris quis diam eget augue elementum consequat at et turpis. Proin faucibus enim consequat risus elementum, in semper nisl tincidunt. Aliquam erat volutpat. Donec commodo dolor sit amet lorem ultricies sodales.
+                </p>
+            </section>
+            
+            <section id="contact">
+                <h2>Contact</h2>
+                <div class="flex">
+                    <address>
+                        123 This Street<br>
+                        Bronson, ID 85807<br>
+                        208-789-4561<br>
+                        email@home.com
+                    </address>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6626.6696578990195!2d151.21174545362774!3d-33.85526082949299!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12ae665e892fdd%3A0x3133f8d75a1ac251!2sSydney%20Opera%20House!5e0!3m2!1sen!2sus!4v1581010205278!5m2!1sen!2sus" 
+                    width="600px"  
+                    height="400px" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
+                </div>
+            </section>
+       </div>
+       <script src="scripts/main.js"></script>
+   </main>
+   <footer>
+       <h3>Today's date is</h3>
+        <p>
+            <span id="today"></span> 
+        </p>
+   </footer>
+   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+   <script src="scripts/hamburger_menu.js" ></script>
+</body> 
+</html>

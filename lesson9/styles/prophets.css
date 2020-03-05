@@ -1,0 +1,36 @@
+article {
+    background-color: lightblue;
+    margin: 5px;
+    padding: 10px;
+    text-align:center;
+}
+
+img {
+    box-shadow:  15px 10px 20px;
+    margin: 20px;
+
+}
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#grid {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+@media only screen and (min-width: 32.5em) {
+
+    #grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+
+@media only screen and (min-width: 60em){
+    #grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+}

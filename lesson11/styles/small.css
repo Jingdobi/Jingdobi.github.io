@@ -67,10 +67,23 @@ section {
     padding: 10px;
     margin: 12px;
 }
-table, tr, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
+source{
+    margin: auto;
+}
+table caption {
     padding: 5px;
+    font-family: 'Bree Serif';
+}
+table, tr, th, td {
+    background-color: #6ab3bb;
+    border: 1px solid white;
+    border-collapse: collapse;
+    padding: 10px;
+}
+tr td{
+    background-color: #99c7cc;
+    padding: 10px;
+    text-align: center;
 }
 ul li a {
     color: rgb(36, 36, 36);
@@ -81,7 +94,6 @@ ul li a {
     text-decoration: none;
 }
 ul li a:hover {
-    
     background-color: whitesmoke;
     color: indianred;
     display: block;
@@ -93,7 +105,6 @@ ul li a:hover {
   width: 75%;
   clear: both;
 }
-
 .container input {
   width: 100%;
   clear: both;
@@ -109,7 +120,6 @@ ul li a:hover {
     width: 300px;
     padding: 10px;
     text-align: center;
-
 }
 .homeGridImg {
     width: 200px;
@@ -117,8 +127,11 @@ ul li a:hover {
 }
 .img-card{
     align-content: center;
-    background-color: blanchedalmond;
-    margin: 20px;
+    background-color: #d6a17a;
+    border-radius: 5px;
+    margin: 20px auto;
+    padding: 15px;
+    text-align: center;
 }
 .navigation li {
     display:none;
@@ -133,18 +146,30 @@ ul li a:hover {
     margin-left: 15px;
 }
 .weather-grid {
+    align-items: center;
     align-self: center;
     height: 250px;
+    text-align: center;
     width: 350px;
 }
 .weather-grid:hover {
     box-shadow: black 0 0 50px ;
 }
 /* ID Selectors */
+#article{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+}
+#article-content{
+    grid-row: 2/3;
+}
 #article-image{
-    float: right;
+    justify-self: end;
     max-width: 200px;
     margin: 0 0 1em 1em;
+    grid-row: 2/3;
+    grid-column: 2/3;
+    
 }
 #btnReset {
     text-align: center;
@@ -160,16 +185,39 @@ ul li a:hover {
     flex-direction: column;
     justify-content: space-around;
 }
+#events{
+    background-color: #7aced7;
+    border: ridge 15px;
+    border-color: #6ab3bb;
+    /* border-radius: 10px; */
+    list-style: none;
+    margin: auto;
+    max-width: 300px;
+    padding: 10px;
+    text-align: center;
+}
+#fishhaven{
+    background-color: none;
+    font-size: 1.5em;
+    opacity: 100%;
+    text-align: center;
+}
 #five-day-forecast{
     display:none;
 }
-#hero-image{
-    max-width: 100%;
+#hero-image {
+    margin: 20px auto;
 }
 #logo{
    max-width: 200px;
 }
 #preston{
+    background-color: none;
+    font-size: 1.5em;
+    opacity: 100%;
+    text-align: center;
+}
+#sodasprings{
     background-color: none;
     font-size: 1.5em;
     opacity: 100%;
@@ -183,6 +231,5 @@ ul li a:hover {
     padding:15px;
     background-color: #42313b;
     position: absolute;
-    top: 500px;
-    
+    top: 500px;   
 }

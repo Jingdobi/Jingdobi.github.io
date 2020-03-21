@@ -12,7 +12,7 @@
 </head>
 <body onload="getEvents('Preston')">
     <aside class="hidden">
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae officia, labore ut fugiat expedita maxime velit, sit cupiditate excepturi quae mollitia repellendus debitis facilis, voluptas impedit odit neque minus numquam!    
+    There will be free food tomorrow at the Tri-City meeting! Be there or be square!    
     </aside>
    <header>
     <img src="images/mtlogo.png" id="logo">
@@ -24,22 +24,22 @@
               <a href="#" onclick="toggleMenu()"> &equiv;</a>
            </li>
            <li>
-               <a href="#">Home</a>
+               <a href="index.html">Home</a>
             </li>
            <li>
-            <a href="preston-8.html">Preston</a>   
+            <a href="#">Preston</a>   
             </li>
            <li>
-               <a href="#">Soda Springs</a>
+               <a href="sodasprings.html">Soda Springs</a>
             </li>
            <li>
-               <a href="#">Fish Haven</a>
+               <a href="fishhaven.html">Fish Haven</a>
             </li>
            <li> 
                <a href="stormcenter.html">Storm Center</a> 
             </li>
            <li>
-                <a href="gallery-8.html">Gallery</a>   
+                <a href="gallery.html">Gallery</a>   
             </li>
        </ul>
    </nav>
@@ -50,10 +50,10 @@
             <section id="hero"><h2>Hero</h2>
                 <!-- <img id="hero-image" src="images/hero.jpg"> -->
                 <picture>
-                    <source media="(max-width: 400px)" srcset="images/hero-image-small.jpg" >
-                    <source media="(max-width: 800px)"srcset="images/hero-image-medium.jpg" >
-                    <source media="(min-width: 801px)" srcset="images/hero-image-large.jpg" >
-                    <img src="images/hero-image-small.jpg">
+                    <source  media="(max-width: 800px)" srcset="images/hero-image-small.jpg" >
+                    <source  media="(max-width: 1499px)"srcset="images/hero-image-medium.jpg" >
+                    <source  media="(min-width: 1500px)" srcset="images/hero-image-large.jpg" >
+                    <img id="hero-image" src="images/hero-image-small.jpg">
                 </picture>  
                 <!-- <img src="images/hero-image-small.jpg" alt="Hero Image" srcset="imagex/hero-image-small.jpg 400w, images/hero-image-medium.jpg 800w, images/hero-image-large.jpg 1200w">   -->
                 <article id="weather-summary">
@@ -107,8 +107,10 @@
             <section id="article">
                 <h2>Article</h2>
                 <img id="article-image" src="images/preston.jpg">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed iaculis ante sem, in cursus nibh viverra vitae. Vestibulum euismod, quam eu semper lacinia, elit diam auctor velit, at semper arcu libero ac elit. Sed diam ex, scelerisque vel hendrerit dignissim, pretium ut ligula. Vivamus rhoncus eu ante in gravida. Proin ornare nibh eu ipsum bibendum, eget pellentesque mauris ornare. Etiam ut lectus elit. In quis nunc tellus. Nullam tempor faucibus eros. Nulla pellentesque ipsum vitae euismod lobortis. Aenean dapibus dolor eget tristique scelerisque. Integer tristique nibh ut nibh aliquam, et pellentesque risus pellentesque. Phasellus vitae cursus leo.
-                    Vestibulum ac nibh et augue porta dictum. Praesent iaculis ipsum vel maximus convallis. Nulla tincidunt auctor malesuada. Mauris quis diam eget augue elementum consequat at et turpis. Proin faucibus enim consequat risus elementum, in semper nisl tincidunt. Aliquam erat volutpat. Donec commodo dolor sit amet lorem ultricies sodales.
+                <p id="article-content">For several years the city held a "Napoleon Dynamite Festival" in the summer. Many of the featured festival themes related to events occurring during the film. For example: Tetherball Tournament, Tater Tot Eating Contest, Moon Boot Dance, Impersonation, Look-A-Like Contest, Football Throwing Contest and more.
+                     In 2004 there was a single day event that drew approximately 300 people. Although this was not a large crowd, it did help raise $1,500 for the Preston School District Education Foundation. In 2005 an estimated 6,000 people attended the event, but that number dropped to an estimated 400 people in 2006. The 
+                     2007 and 2008 event was held along with the 'That Famous Preston Night Rodeo' in Preston. There are no plans for reviving the event. 'That Famous Preston Night Rodeo' is usually held in late July, along with the Franklin County parade. The rodeo's name ('That Famous Preston Night Rodeo') comes from it being
+                      the first rodeo held during night time. It includes many events such as bull riding, barrel racing, and other popular events. The Franklin county parade includes floats and advertisements of local businesses. The rodeo and parade remain one of the town's most popular local events and traditions. 
                 </p>
             </section>
             
@@ -119,7 +121,8 @@
                         123 This Street<br>
                         Bronson, ID 85807<br>
                         208-789-4561<br>
-                        email@home.com
+                        email@home.com<br>
+                        City ID: <span id="cityId">5604473</span>
                     </address>
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6626.6696578990195!2d151.21174545362774!3d-33.85526082949299!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12ae665e892fdd%3A0x3133f8d75a1ac251!2sSydney%20Opera%20House!5e0!3m2!1sen!2sus!4v1581010205278!5m2!1sen!2sus" 
                     width="600px"  

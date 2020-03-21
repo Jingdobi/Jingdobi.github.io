@@ -1,6 +1,7 @@
 
 // weather summary
-const apiURL ='https://api.openweathermap.org/data/2.5/weather?id=5604473&appid=7eca0dba938adc792625ae77e4e3e85c&units=imperial'
+let cityId = document.getElementById('cityId').innerHTML
+const apiURL = `https://api.openweathermap.org/data/2.5/weather?id=${cityId}&appid=7eca0dba938adc792625ae77e4e3e85c&units=imperial`
 
 fetch(apiURL)
 .then(response => response.json())
@@ -23,6 +24,7 @@ fetch(apiURL)
 
         document.querySelector('#weatherDesc').textContent = 
             jsObject.weather[0].main;
+            console.log(jsObject.weather[0].main)
 
         let imageUrl = `https://openweathermap.org/img/w/${jsObject.weather[0].icon}.png`
 
@@ -34,6 +36,7 @@ fetch(apiURL)
     
 );
 
+
 const daysOfWeek = [
     'Sunday',
     'Monday',
@@ -44,7 +47,7 @@ const daysOfWeek = [
     'Saturday'
 ]
 
-const forecastApiUrl = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=7eca0dba938adc792625ae77e4e3e85c&units=imperial'
+const forecastApiUrl = `https://api.openweathermap.org/data/2.5/forecast?id=${cityId}&appid=7eca0dba938adc792625ae77e4e3e85c&units=imperial`
 
 fetch(forecastApiUrl)
 .then(response => response.json())
@@ -67,7 +70,6 @@ fetch(forecastApiUrl)
                 }
             }
         );
-        
     }
 )
 // weather summary

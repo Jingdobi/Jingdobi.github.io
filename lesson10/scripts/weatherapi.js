@@ -1,5 +1,7 @@
 function getCurrentWeather(cityId){
-
+    const cityId = document.querySelector('#cityId').innerHTML
+    console.log(cityId)
+    const cityId = document.querySelector('#cityId').innerHTML
 const apiURL ='https://api.openweathermap.org/data/2.5/weather?id=&appid=' +
     cityId + '7eca0dba938adc792625ae77e4e3e85c&units=imperial';
 
@@ -18,7 +20,6 @@ fetch(apiURL)
                 .textContent = jsObject.main.temp;
             let image = `https://openweathermap.org/img/w/${jsObject.weather[0].icon}.png`;
 
-                console.log(image)
             document.querySelector('#weather-icon')
                 .setAttribute('src', image);
 

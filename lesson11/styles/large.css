@@ -8,4 +8,7 @@
         flex-direction: row;
         justify-content: space-around;
     }
+    #hero-image {
+        margin: 50px auto;
+    }
 }

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Fira+Sans+Condensed&display=swap" rel="stylesheet">
+    <title>Home</title>
+</head>
+<body>
+   <header>
+    <img src="images/mtlogo.png" id="logo">
+    <h1 class="top-head">Stargazers weather</h1>
+   </header>
+   <nav>
+       <ul class="navigation">
+           <li>
+              <a href="#" onclick="toggleMenu()"> &equiv;</a>
+           </li>
+           <li>
+               <a href="#">Home</a>
+            </li>
+           <li>
+            <a href="preston-8.html">Preston</a>   
+            </li>
+           <li>
+               <a href="#">Soda Springs</a>
+            </li>
+           <li>
+               <a href="#">Fish Haven</a>
+            </li>
+           <li> 
+               <a href="stormcenter.html">Storm Center</a> 
+            </li>
+           <li>
+                <a href="gallery-8.html">Gallery</a>   
+            </li>
+       </ul>
+   </nav>
+   <main>
+       <section id="cities">
+           <article class="homeGrid">
+               <h1 id="fishHavenName"></h1>
+               <h2 id="fishHavenMotto"></h2>
+               <p id="fishHavenYearFounded"></p>
+               <p id="fishHavenPopulation"></p>
+               <p id="fishHavenAnnualRainfall"></p>
+               <p>
+                   <img class="homeGridImg" src="" alt="" id="fishHavenImage">
+               </p>
+           </article>
+           <article class="homeGrid">
+               <h1 id="prestonName"></h1>
+               <h2 id="prestonMotto"></h2>
+               <p id="prestonYearFounded"></p>
+               <p id="prestonPopulation"></p>
+               <p id="prestonAnnualRainfall"></p>
+               <p>
+                   <img class="homeGridImg" src="" alt="" id="prestonImage">
+               </p>
+            </article>
+            <article class="homeGrid">
+                <h1 id="sodaspringsName"></h1>
+                <h2 id="sodaspringsMotto"></h2>
+                <p id="sodaspringsYearFounded"></p>
+                <p id="sodaspringsPopulation"></p>
+                <p id="sodaspringsAnnualRainfall"></p>
+                <p>
+                    <img class="homeGridImg" src="" alt="" id="sodaspringsImage">
+                </p>
+           </article>
+       </section>
+   </main>
+   <footer>
+       <h3>Today's date is</h3>
+        <p>
+            <span id="today"></span> 
+        </p>
+   </footer>
+   <script src="scripts/towns.js"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+   <script src="scripts/hamburger_menu.js" ></script>
+</body> 
+</html>

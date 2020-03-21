@@ -1,7 +1,4 @@
-function getCurrentWeather(cityId){
-
-const apiURL ='https://api.openweathermap.org/data/2.5/weather?id=&appid=' +
-    cityId + '7eca0dba938adc792625ae77e4e3e85c&units=imperial';
+const apiURL ='https://api.openweathermap.org/data/2.5/weather?id=5604473&appid=7eca0dba938adc792625ae77e4e3e85c&units=imperial'
 
 fetch(apiURL)
     .then(
@@ -35,4 +32,4 @@ fetch(apiURL)
         }
     );
 
-}    
+    

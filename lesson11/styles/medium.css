@@ -1,0 +1,50 @@
+@media only screen and (min-width: 34.5em){
+
+    iframe{
+        display:block;
+    }
+    table {
+        margin: 0 auto;
+    }
+    .flex{
+        display:flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .grid-gallery{
+        display: grid;
+        margin: 0 auto;
+        grid-template-columns: 1fr 1fr;
+    }
+    .navigation{
+        display: flex;
+    }
+    .navigation li:first-child {
+        display: none;
+    }
+    .navigation li {
+        display:block;
+        flex: 1 1 100%;
+    }
+    #article-image{
+        float: right;
+        max-width:400px;
+        margin: 0 0 1em 1em;
+    }
+    #five-day-forecast{
+        display:block;
+        margin: 0 auto;
+    }
+    #weather-summary {
+        max-width: 200px;
+        position:absolute;
+        top: 500px;
+        left: 250px;
+    }
+    #cities{
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link href="https://fonts.googleapis.com/css?family=Lora|Source+Sans+Pro&display=swap" rel="stylesheet">    
+    <title>Services</title>
+</head>
+<body>
+    <header>
+        <img id="logo" src="images/Logo-300.png" alt="Temple Inn & Suites Logo">
+        <h1>Temple Inn & Suites</h1>
+        
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li>
+                <a href="#" onclick="toggleMenu()">&#9776;</a>
+            </li>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="temple.html">Temple</a>
+            </li>
+            <li>
+                <a href="reservations.html">Reservations</a>
+            </li>
+            <li>
+                <a href="#">Services</a>
+            </li>
+            <li>
+                <a href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <section id="hero">
+            
+            <picture>
+                <source media="(max-width: 750px)" srcset="images/temple_hero_small_crop.jpg">
+                <source media="(max-width: 1200px)" srcset="images/temple_hero_medium_crop.jpg">
+                <source media="(max-width: 1920px)" srcset="images/temple_hero_large_crop.jpg">
+                 <img id="hero-image" src="images/temple_hero_large_crop.jpg" alt="Payson Utah Temple">
+            </picture>
+                    
+        </section>
+        <h2 class="subheader">Available Services</h2>
+        <section id="service-grid">
+            <div class="reception">
+            <h3>Reception</h3>
+            <p>If you are interested in looking at our reception services click <a href="reception.html">here.</a></p>
+            </div>
+            <div class="full-time">
+            <h3>Full-time missionaries</h3>
+            <p>If you are a Full-time missionary click <a href="missionary.html">here.</a></p>
+            </div>
+        </section>
+       
+
+    </main>
+    <footer>
+        <h2>
+            Questions? contact us <a href="contact.html">here!</a>
+        </h2>
+        <h3>Today's date is</h3>
+        <p>
+            <span id="today"></span> 
+        </p>
+    </footer>
+    <script src="scripts/hamburger_menu.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>

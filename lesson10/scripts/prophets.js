@@ -6,9 +6,10 @@ fetch('https://byui-cit230.github.io/lessons/lesson-09/data/latter-day-prophets.
 
     .then(prophetList => {
             let prophets = prophetList.prophets;
-
+            
             prophets.forEach(
                 prophet => {
+                    console.log(prophet)
                     let article = document.createElement('article');
 
                     let h1 = document.createElement('h1');

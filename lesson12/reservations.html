@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link href="https://fonts.googleapis.com/css?family=Lora|Source+Sans+Pro&display=swap" rel="stylesheet">    
+    <title>Reservations</title>
+</head>
+<body>
+    <header>
+        <img id="logo" src="images/Logo-300.png" alt="Temple Inn & Suites Logo">
+        <h1>Temple Inn & Suites</h1>
+        
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li>
+                <a href="#" onclick="toggleMenu()">&#9776;</a>
+            </li>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="temple.html">Temple</a>
+            </li>
+            <li>
+                <a href="#">Reservations</a>
+            </li>
+            <li>
+                <a href="services.html">Services</a>
+            </li>
+            <li>
+                <a href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <section id="hero">
+            
+            <picture>
+                <source media="(max-width: 750px)" srcset="images/temple_hero_small_crop.jpg">
+                <source media="(max-width: 1200px)" srcset="images/temple_hero_medium_crop.jpg">
+                <source media="(max-width: 1920px)" srcset="images/temple_hero_large_crop.jpg">
+                 <img id="hero-image" src="images/temple_hero_large_crop.jpg" alt="Payson Utah Temple">
+            </picture>
+                    
+        </section>
+        <div><h2 class="subheader">Make a Reservation</h2>
+            <p class="subheader">Fields with a * are required</p></div>
+        <section id="form">
+            <form action="thanks.html" method="GET">
+                
+                <div>
+                    <label for="location">Select a temple*</label>  
+                    <select  id="location" name="location" required>
+                        <option value="" selected disabled>Choose one</option>
+                        <option value="Madrid">Madrid, Spain</option>
+                        <option value="Suva">Suva, Fiji</option>
+                        <option value="Sandiego">San Diego, California</option>
+                        <option value="Adelaide">Adelaide, Australia</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="resDate">What day do you want to reserve?*</label>
+                        <input type="date" id="resDate" name="resDate" required>
+                    </div>
+                    <div>
+                        <label for="roomNum">How many rooms?* (max of 4)</label>
+                        <input type="number" id="roomNum" min="1" max="4" name="roomNum" required>
+                    </div>
+                     <div>
+                        <label for="roomType">What type of room?*</label>
+                        <select  id="roomType" name="roomType" required>
+                            <option value="" selected disabled>Choose one</option>
+                            <option value="1bed">1-Bedroom 1-bathroom</option>
+                            <option value="2bed">2-Bedroom 1-bathroom</option>
+                            <option value="3bed">3-Bedroom 2-bathroom</option>
+                            </select>
+                    </div> 
+                    <div>
+                        <label for="fullName">Your Full Name* </label>
+                        <input type="text" id="fullName" name="fullName" required>
+                    </div>
+                    <div>
+                        <label for="email">Email* </label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div>
+                        <label for="telephone">Telephone Number</label>
+                        <input type="tel" id="telephone" name="email">
+                    </div>
+                    <div>
+                        <label for="country">What state/country are you coming from?</label>
+                        <input type="text" name="country" id="country">
+                    </div>
+                    <div>
+                        <label for="additional">Are there any special accomadations we can help you with?</label>
+                        <textarea name="additional" id="additional" ></textarea>
+                    </div>
+                    <div>
+                        <input class="buttons" type="submit" value="Submit" id="btnSubmit">
+                        <input class="buttons" type="reset" value="Reset" id="btnReset">
+                    </div>
+                    </form>
+        </section>
+
+    </main>
+    <footer>
+        <h2>
+            Questions? contact us <a href="contact.html">here!</a>
+        </h2>
+        <h3>Today's date is</h3>
+        <p>
+            <span id="today"></span> 
+        </p>
+    </footer>
+    <script src="scripts/hamburger_menu.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>

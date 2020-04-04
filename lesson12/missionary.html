@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link href="https://fonts.googleapis.com/css?family=Lora|Source+Sans+Pro&display=swap" rel="stylesheet">    
+    <title>Full-time Missionaries</title>
+</head>
+<body>
+    <header>
+        <img id="logo" src="images/Logo-300.png" alt="Temple Inn & Suites Logo">
+        <h1>Temple Inn & Suites</h1>
+        
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li>
+                <a href="#" onclick="toggleMenu()">&#9776;</a>
+            </li>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="temple.html">Temple</a>
+            </li>
+            <li>
+                <a href="reservations.html">Reservations</a>
+            </li>
+            <li>
+                <a href="services.html">Services</a>
+            </li>
+            <li>
+                <a href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <section id="hero">
+            
+            <picture>
+                <source media="(max-width: 750px)" srcset="images/temple_hero_small_crop.jpg">
+                <source media="(max-width: 1200px)" srcset="images/temple_hero_medium_crop.jpg">
+                <source media="(max-width: 1920px)" srcset="images/temple_hero_large_crop.jpg">
+                 <img id="hero-image" src="images/temple_hero_large_crop.jpg" alt="Payson Utah Temple">
+            </picture>
+                    
+        </section>
+        <h2 class="subheader">Full-time Missionaries, and Guests</h2>
+        <div id="mission-grid">
+            <h2></h2>
+            <p id="hotel1-info">Our hotel reservations for Madrid are in a Marriot 4 star hotel only 1 block from the Madrid, Spain Temple. This reservation is for anyone that wants to experience Spanish culture and have easy access to a beautiful temple.</p>
+            <img id="hotel1-img" src="images/hotel1.jpg" alt="1st Hotel Package">
+
+            <img src="images/hotel2.jpg" alt="2nd Hotel Package">
+            <p id="hotel2-info">Our San Diego, California hotel reservations give you a couple options. We have reservations in a less expensive hotel for staying after a long day of temple work and for full-time missionaries looking for a place to stay during their mission service. We also have some Deluxe suites available for those who want to stay a bit longer and enjoy the city along with the temple.</p> 
+
+            <p id="hotel3-info">The Adelaide Australia package is our most popular package. We offer a perfect place to stay for full-time missionaries and visitors. There are many options to fit whatever kind of visit you want. Whether you want to stay long term, visit the temple, or also visit the wonders in Adelaide.</p>
+            <img src="images/hotel3.jpg" alt="3rd Hotel Package">
+
+            <img src="images/hotel4.jpg" alt="4th Hotel Package">
+            <p id="hotel4-info">The Suva Fiji package is our personal favorite reservation package. We have many hotels to offer from for both visitors and full-time missionaries lookinf for a place to stay. Enjoy the beautiful island nation of Fiji with a matchingly beautiful hotel room</p>
+        </div>
+       
+
+    </main>
+    <footer>
+        <h2>
+            Questions? contact us <a href="contact.html">here!</a>
+        </h2>
+        <h3>Today's date is</h3>
+        <p>
+            <span id="today"></span> 
+        </p>
+    </footer>
+    <script src="scripts/hamburger_menu.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>

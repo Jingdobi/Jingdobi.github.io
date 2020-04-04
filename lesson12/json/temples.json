@@ -1,0 +1,172 @@
+{
+    "temples": [{
+            "id": "1704129",
+            "templeName": "Madrid Spain Temple",
+            "streetLine": "Calle Del Templo 2",
+            "city": "Madrid",
+            "state": "Spain",
+            "country": "Spain",
+            "zip": "28030",
+            "telephone": "+34 91-214-2607",
+            "email": "madridtemple@churchofjesuschrist.org",
+            "imgURL": "images/madrid_temple.jpeg",
+            "services": [
+                "Clothing rental available",
+                "Cafeteria available",
+                "Patron housing available",
+                "Distribuion center nearby"
+            ],
+            "history": [{
+                    "date": "4 April 1993",
+                    "milestone": "Announced"
+                },
+                {
+                    "date": "11 June 1996",
+                    "milestone": "Groundbreaking"
+                }
+            ],
+            "schedule": {
+                "ordinances": {
+                    "initiatory": "Tuesday - Saturday",
+                    "endowment": "Tuesday - Saturday",
+                    "sealings": "Tuesday - Saturday"
+                }
+            },
+            "closures": [
+                "Saturday, 4 April 2020",
+                "Tuesday, 23 June 2020 - Monday, 6 July 2020"
+            ]
+        },
+
+        {
+            "id": "5391811",
+            "templeName": "San Diego Temple",
+            "streetLine": "7474 Charmant Dr",
+            "city": "San Diego",
+            "state": "CA",
+            "country": "United States",
+            "zip": "92122",
+            "telephone": "+1 858-622-0991",
+            "email": "sandiegotemple@churchofjesuschrist.org",
+            "imgURL":"images/sandiego_temple.jpeg",
+            "services": [
+                "Clothing rental available",
+                "Cafeteria available",
+                "Patron housing available",
+                "Distribuion center nearby"
+            ],
+            "history": [{
+                    "date": "7 April 1984",
+                    "milestone": "Announced"
+                },
+                {
+                    "date": "27 February 1988",
+                    "milestone": "Groundbreaking"
+                },
+                {
+                    "date": "25 April 199",
+                    "milestone": "Dedicated"
+                }
+            ],
+            "schedule": {
+                "ordinances": {
+                    "initiatory": "Tuesday - Saturday",
+                    "endowment": "Tuesday - Saturday",
+                    "sealings": "Tuesday - Saturday"
+                }
+            },
+            "closures": [
+                "Saturday, 11 April 2020",
+                "Tuesday, 30 June 2020 - Monday, 13 July 2020"
+            ]
+        },
+        {
+            "id": "7302628",
+            "templeName": "Adelaide Australia Temple",
+            "streetLine": "53-59 Lower Portrush Rd",
+            "city": "Adelaide",
+            "state": "Marden",
+            "country": "Australia",
+            "zip": "5070",
+            "telephone": "+61 8-8363-8000",
+            "email": "adelaidetemple@churchofjesuschrist.org",
+            "imgURL":"images/adelaide_temple.jpeg",
+            "services": [
+                "No Clothing rental available",
+                "No Cafeteria available",
+                "No Patron housing available",
+                "No Distribuion center nearby"
+            ],
+            "history": [{
+                    "date": "17 March 1999",
+                    "milestone": "Announced"
+                },
+                {
+                    "date": "29 May 1999",
+                    "milestone": "Groundbreaking"
+                },
+                {
+                    "date": "15 June 2000",
+                    "milestone": "Dedicated"
+                }
+            ],
+            "schedule": {
+                "ordinances": {
+                    "initiatory": "Tuesday - Saturday",
+                    "endowment": "Wednesday - Saturday",
+                    "sealings": "Wednesday - Saturday"
+                }
+            },
+            "closures": [
+                "Thursday, 16 April 2020"
+
+            ]
+        },
+        {
+            "id": "7778818",
+            "templeName": "Suva Fiji Temple",
+            "streetLine": "LOT 2-20 Lakeba St",
+            "city": "Samabula",
+            "state": "Suva",
+            "country": "Fiji",
+            "zip": " ",
+            "telephone": "+679 338-8949",
+            "email": "suvatemple@churchofjesuschrist.org",
+            "imgURL":"images/suva_temple.jpeg",
+            "services": [
+                "No Clothing rental available",
+                "No Cafeteria available",
+                "Patron housing available",
+                "Distribuion center nearby"
+            ],
+            "history": [{
+                    "date": "7 May 1998",
+                    "milestone": "Announced"
+                },
+                {
+                    "date": "8 May 1999",
+                    "milestone": "Groundbreaking"
+                },
+                {
+                    "date": "18 June 2000",
+                    "milestone": "Dedicated"
+                },
+                {
+                    "date": "21 February 2016",
+                    "milestone": "Redicated"
+                }
+            ],
+            "schedule": {
+                "ordinances": {
+                    "initiatory": "Monday - Friday",
+                    "endowment": "Monday - Friday",
+                    "sealings": "Monday - Friday"
+                }
+            },
+            "closures": [
+                "None in the forseeable future."
+
+            ]
+        }
+    ]
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link href="https://fonts.googleapis.com/css?family=Lora|Source+Sans+Pro&display=swap" rel="stylesheet">    
+    <title>Home</title>
+</head>
+<body>
+    <header>
+        <img id="logo" src="images/Logo-300.png" alt="Temple Inn & Suites Logo">
+        <h1>Temple Inn & Suites</h1>
+        
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li>
+                <a href="#" onclick="toggleMenu()">&#9776;</a>
+            </li>
+            <li>
+                <a href="#">Home</a>
+            </li>
+            <li>
+                <a href="temple.html">Temple</a>
+            </li>
+            <li>
+                <a href="reservations.html">Reservations</a>
+            </li>
+            <li>
+                <a href="services.html">Services</a>
+            </li>
+            <li>
+                <a href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <section id="hero">
+            
+           <picture>
+               <source media="(max-width: 750px)" srcset="images/temple-hero-small.jpg">
+               <source media="(max-width: 1200px)" srcset="images/temple-hero-medium.jpg">
+               <source media="(max-width: 1920px)" srcset="images/temple-hero-large.jpg">
+                <img id="hero-image" src="images/temple-hero-large.jpg" alt="Payson Utah Temple">
+           </picture>
+           <div id="overlay">
+               <h2 id="float-header">Welcome!</h2> 
+               <h3><a href="reservations.html">Reserve your hotel spot today!</a></h3>
+
+        </div>
+        </section>
+        <section class="home-section">
+            <article class="home-article">
+                <h2 class="subheader">Get Sealed for an eternity</h2>
+                <p id="home-description">One of the most significant reasons why LDS Temples are so important is that sacred ordinances (religious ceremonies) and covenants necessary for our eternal exaltation can only be made within a temple. These ordinances and covenants are performed by the power of the priesthood, which is God's authority to act in His name. Without the proper priesthood authority, these saving ordinances cannot be made.
+                    One of the ordinances performed in LDS temples is the endowment, in which covenants are made. These covenants include promising to live a righteous life, to be obedient to God's commandments, and to follow the gospel of Jesus Christ.</p>
+                <img id="home-family-picture" src="images/family_temple.jpg" alt="A family sitting in front of a temple"></article>
+        </section>
+
+    </main>
+    <footer>
+        <h2>
+            Questions? contact us <a href="contact.html">here!</a>
+        </h2>
+        <h3>Today's date is</h3>
+        <p>
+            <span id="today"></span> 
+        </p>
+    </footer>
+    <script src="scripts/hamburger_menu.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>

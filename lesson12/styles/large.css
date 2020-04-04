@@ -1,0 +1,17 @@
+@media only screen and (min-width: 64em){
+
+
+    #home-family-picture {
+        float:right;
+        grid-column: 2/3;
+        margin: 35px;
+        max-width: 90%;
+    }
+    #home-description{
+        grid-column: 1/2;
+        margin: 35px;
+    }
+    #grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}

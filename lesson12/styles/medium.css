@@ -1,0 +1,52 @@
+@media only screen and (min-width: 34.5em){
+    
+    iframe {
+        display:block;
+        position: absolute;
+        top: 55%;
+        left: 39%;
+        float: right;
+    }
+    input, select {
+        width: 100%;
+    }
+    
+    textarea {
+        width: 100%;
+    }
+    ul {
+        display: flex;
+    }
+    .navigation li {
+        display:block;
+    }
+    .navigation li:first-child{
+        display:none;
+    }
+    .temple-article {
+        border: solid #d1b5ad 60px;
+        background-color: #eee2dc ;
+        margin: 15 auto;
+        max-width: 50%;
+        text-align:center;
+    }
+    #form{
+        margin:15px auto;
+        max-width: 1200px;
+    }
+    #home-family-picture {
+        display: grid;
+        float:right;
+        grid-row: 2/3;
+        grid-column: 1/3;
+        margin: 35px;
+        max-width: 100%;
+    }
+    #grid {
+        grid-template-columns: 1fr 1fr;
+    }
+    #mission-grid img{
+        margin-top: 0px;
+        max-width: 500px;
+    }
+}
